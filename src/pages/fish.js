@@ -3,14 +3,15 @@ import { Link } from 'gatsby';
 
 import Layout from '../components/layout';
 import SEO from '../components/seo';
+import FishTable from '../components/FishTable';
 
-const SecondPage = () => (
+const FishPage = () => (
   <Layout>
-    <SEO title="Page two" />
-    <h1>Hi from the second page</h1>
-    <p>Welcome to page 2</p>
+    <SEO title="Fish" />
+    <h1>Fish</h1>
+    <FishTable />
     <Link to="/">Go back to the homepage</Link>
   </Layout>
 );
 
-export default SecondPage;
+export default FishPage;

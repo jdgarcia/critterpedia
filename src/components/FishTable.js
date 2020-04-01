@@ -70,7 +70,7 @@ const FishTable = () => {
           <div>
             <label htmlFor="filter">Show:</label>
           </div>
-          <select
+          <select // eslint-disable-line jsx-a11y/no-onchange
             id="filter"
             onChange={e => setFilter(e.target.value)}
             value={filter}
@@ -86,7 +86,7 @@ const FishTable = () => {
           <div>
             <label htmlFor="hemisphere">Hemisphere:</label>
           </div>
-          <select
+          <select // eslint-disable-line jsx-a11y/no-onchange
             id="hemisphere"
             onChange={e => setHemisphere(e.target.value)}
             value={hemisphere}
@@ -113,11 +113,26 @@ const FishTable = () => {
           >
             <div className="flex justify-between">
               <div>{fish.name}</div>
-              <div>🛎{fish.price}</div>
+              <div>
+                <span role="img" aria-label="price">
+                  🛎
+                </span>
+                {fish.price}
+              </div>
             </div>
             <div className="flex justify-between">
-              <div className="flex-1">🗺{fish.location}</div>
-              <div className="flex-1">🕐{fish.timeOfDay}</div>
+              <div className="flex-1">
+                <span role="img" aria-label="location">
+                  🗺
+                </span>
+                {fish.location}
+              </div>
+              <div className="flex-1">
+                <span role="img" aria-label="time">
+                  🕐
+                </span>
+                {fish.timeOfDay}
+              </div>
               <div className="flex-1 text-end">Size: {fish.shadowSize}</div>
             </div>
             <div

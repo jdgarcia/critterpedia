@@ -1,4 +1,3211 @@
 {
+  "bugs": {
+    "northernHemisphere": [
+      {
+        "name": "Common butterfly",
+        "price": "160",
+        "location": "Flying",
+        "timeOfDay": "4 AM - 7 PM",
+        "months": {
+          "1": true,
+          "2": true,
+          "3": true,
+          "4": true,
+          "5": true,
+          "6": true,
+          "7": false,
+          "8": false,
+          "9": true,
+          "10": true,
+          "11": true,
+          "12": true
+        }
+      },
+      {
+        "name": "Yellow butterfly",
+        "price": "160",
+        "location": "Flying",
+        "timeOfDay": "4 AM - 7 PM",
+        "months": {
+          "1": false,
+          "2": false,
+          "3": true,
+          "4": true,
+          "5": true,
+          "6": true,
+          "7": false,
+          "8": false,
+          "9": true,
+          "10": true,
+          "11": false,
+          "12": false
+        }
+      },
+      {
+        "name": "Tiger butterfly",
+        "price": "240",
+        "location": "Flying",
+        "timeOfDay": "4 AM - 7 PM",
+        "months": {
+          "1": false,
+          "2": false,
+          "3": true,
+          "4": true,
+          "5": true,
+          "6": true,
+          "7": true,
+          "8": true,
+          "9": true,
+          "10": false,
+          "11": false,
+          "12": false
+        }
+      },
+      {
+        "name": "Peacock butterfly",
+        "price": "2500",
+        "location": "Flying by Hybrid Flowers",
+        "timeOfDay": "4 AM - 7 PM",
+        "months": {
+          "1": false,
+          "2": false,
+          "3": true,
+          "4": true,
+          "5": true,
+          "6": true,
+          "7": false,
+          "8": false,
+          "9": false,
+          "10": false,
+          "11": false,
+          "12": false
+        }
+      },
+      {
+        "name": "Common bluebottle",
+        "price": "300",
+        "location": "Flying",
+        "timeOfDay": "4 AM - 7 PM",
+        "months": {
+          "1": false,
+          "2": false,
+          "3": false,
+          "4": true,
+          "5": true,
+          "6": true,
+          "7": true,
+          "8": true,
+          "9": false,
+          "10": false,
+          "11": false,
+          "12": false
+        }
+      },
+      {
+        "name": "Paper kite butterfly",
+        "price": "1000",
+        "location": "Flying",
+        "timeOfDay": "8 AM - 7 PM",
+        "months": {
+          "1": true,
+          "2": true,
+          "3": true,
+          "4": true,
+          "5": true,
+          "6": true,
+          "7": true,
+          "8": true,
+          "9": true,
+          "10": true,
+          "11": true,
+          "12": true
+        }
+      },
+      {
+        "name": "Great purple emperor",
+        "price": "3000",
+        "location": "Flying",
+        "timeOfDay": "4 AM - 7 PM",
+        "months": {
+          "1": false,
+          "2": false,
+          "3": false,
+          "4": false,
+          "5": true,
+          "6": true,
+          "7": true,
+          "8": true,
+          "9": false,
+          "10": false,
+          "11": false,
+          "12": false
+        }
+      },
+      {
+        "name": "Monarch butterfly",
+        "price": "140",
+        "location": "Flying",
+        "timeOfDay": "4 AM - 5 PM",
+        "months": {
+          "1": false,
+          "2": false,
+          "3": false,
+          "4": false,
+          "5": false,
+          "6": false,
+          "7": false,
+          "8": false,
+          "9": true,
+          "10": true,
+          "11": true,
+          "12": false
+        }
+      },
+      {
+        "name": "Emperor butterfly",
+        "price": "4000",
+        "location": "Flying",
+        "timeOfDay": "5 PM - 8 AM",
+        "months": {
+          "1": true,
+          "2": true,
+          "3": true,
+          "4": false,
+          "5": false,
+          "6": true,
+          "7": true,
+          "8": true,
+          "9": true,
+          "10": false,
+          "11": false,
+          "12": true
+        }
+      },
+      {
+        "name": "Agrias butterfly",
+        "price": "3000",
+        "location": "Flying",
+        "timeOfDay": "8 AM - 5 PM",
+        "months": {
+          "1": false,
+          "2": false,
+          "3": false,
+          "4": true,
+          "5": true,
+          "6": true,
+          "7": true,
+          "8": true,
+          "9": true,
+          "10": false,
+          "11": false,
+          "12": false
+        }
+      },
+      {
+        "name": "Rajah Brooke's birdwing",
+        "price": "2500",
+        "location": "Flying by Purple Flowers",
+        "timeOfDay": "8 AM - 5 PM",
+        "months": {
+          "1": true,
+          "2": true,
+          "3": false,
+          "4": true,
+          "5": true,
+          "6": true,
+          "7": true,
+          "8": true,
+          "9": true,
+          "10": false,
+          "11": false,
+          "12": true
+        }
+      },
+      {
+        "name": "Queen Alexandra's birdwing",
+        "price": "4000",
+        "location": "Flying",
+        "timeOfDay": "8 AM - 4 PM",
+        "months": {
+          "1": false,
+          "2": false,
+          "3": false,
+          "4": false,
+          "5": true,
+          "6": true,
+          "7": true,
+          "8": true,
+          "9": true,
+          "10": false,
+          "11": false,
+          "12": false
+        }
+      },
+      {
+        "name": "Moth",
+        "price": "130",
+        "location": "Flying by Light",
+        "timeOfDay": "7 PM - 4 AM",
+        "months": {
+          "1": true,
+          "2": true,
+          "3": true,
+          "4": true,
+          "5": true,
+          "6": true,
+          "7": true,
+          "8": true,
+          "9": true,
+          "10": true,
+          "11": true,
+          "12": true
+        }
+      },
+      {
+        "name": "Atlas moth",
+        "price": "3000",
+        "location": "On Trees",
+        "timeOfDay": "7 PM - 4 AM",
+        "months": {
+          "1": false,
+          "2": false,
+          "3": false,
+          "4": true,
+          "5": true,
+          "6": true,
+          "7": true,
+          "8": true,
+          "9": true,
+          "10": false,
+          "11": false,
+          "12": false
+        }
+      },
+      {
+        "name": "Madagascan sunset moth",
+        "price": "2500",
+        "location": "Flying",
+        "timeOfDay": "8 AM - 4 PM",
+        "months": {
+          "1": false,
+          "2": false,
+          "3": false,
+          "4": true,
+          "5": true,
+          "6": true,
+          "7": true,
+          "8": true,
+          "9": true,
+          "10": false,
+          "11": false,
+          "12": false
+        }
+      },
+      {
+        "name": "Long locust",
+        "price": "200",
+        "location": "On the Ground",
+        "timeOfDay": "8 AM - 7 PM",
+        "months": {
+          "1": false,
+          "2": false,
+          "3": false,
+          "4": true,
+          "5": true,
+          "6": true,
+          "7": true,
+          "8": true,
+          "9": true,
+          "10": true,
+          "11": true,
+          "12": false
+        }
+      },
+      {
+        "name": "Migratory locust",
+        "price": "600",
+        "location": "On the Ground",
+        "timeOfDay": "8 AM - 7 PM",
+        "months": {
+          "1": false,
+          "2": false,
+          "3": false,
+          "4": false,
+          "5": false,
+          "6": false,
+          "7": false,
+          "8": true,
+          "9": true,
+          "10": true,
+          "11": true,
+          "12": false
+        }
+      },
+      {
+        "name": "Rice grasshopper",
+        "price": "160",
+        "location": "On the Ground",
+        "timeOfDay": "8 AM - 7 PM",
+        "months": {
+          "1": false,
+          "2": false,
+          "3": false,
+          "4": false,
+          "5": false,
+          "6": false,
+          "7": false,
+          "8": true,
+          "9": true,
+          "10": true,
+          "11": true,
+          "12": false
+        }
+      },
+      {
+        "name": "Grasshopper",
+        "price": "160",
+        "location": "On the Ground",
+        "timeOfDay": "8 AM - 5 PM",
+        "months": {
+          "1": false,
+          "2": false,
+          "3": false,
+          "4": false,
+          "5": false,
+          "6": false,
+          "7": true,
+          "8": true,
+          "9": true,
+          "10": false,
+          "11": false,
+          "12": false
+        }
+      },
+      {
+        "name": "Cricket",
+        "price": "130",
+        "location": "On the Ground",
+        "timeOfDay": "5 PM - 8 AM",
+        "months": {
+          "1": false,
+          "2": false,
+          "3": false,
+          "4": false,
+          "5": false,
+          "6": false,
+          "7": false,
+          "8": false,
+          "9": true,
+          "10": true,
+          "11": true,
+          "12": false
+        }
+      },
+      {
+        "name": "Bell cricket",
+        "price": "430",
+        "location": "On the Ground",
+        "timeOfDay": "5 PM - 8 AM",
+        "months": {
+          "1": false,
+          "2": false,
+          "3": false,
+          "4": false,
+          "5": false,
+          "6": false,
+          "7": false,
+          "8": false,
+          "9": true,
+          "10": true,
+          "11": false,
+          "12": false
+        }
+      },
+      {
+        "name": "Mantis",
+        "price": "430",
+        "location": "On Flowers",
+        "timeOfDay": "8 AM - 5 PM",
+        "months": {
+          "1": false,
+          "2": false,
+          "3": true,
+          "4": true,
+          "5": true,
+          "6": true,
+          "7": true,
+          "8": true,
+          "9": true,
+          "10": true,
+          "11": true,
+          "12": false
+        }
+      },
+      {
+        "name": "Orchid mantis",
+        "price": "2400",
+        "location": "On Flowers (White)",
+        "timeOfDay": "8 AM - 5 PM",
+        "months": {
+          "1": false,
+          "2": false,
+          "3": true,
+          "4": true,
+          "5": true,
+          "6": true,
+          "7": true,
+          "8": true,
+          "9": true,
+          "10": true,
+          "11": true,
+          "12": false
+        }
+      },
+      {
+        "name": "Honeybee",
+        "price": "200",
+        "location": "Flying",
+        "timeOfDay": "8 AM - 5 PM",
+        "months": {
+          "1": false,
+          "2": false,
+          "3": true,
+          "4": true,
+          "5": true,
+          "6": true,
+          "7": true,
+          "8": false,
+          "9": false,
+          "10": false,
+          "11": false,
+          "12": false
+        }
+      },
+      {
+        "name": "Wasp",
+        "price": "2500",
+        "location": "Shaking Trees",
+        "timeOfDay": "All day",
+        "months": {
+          "1": true,
+          "2": true,
+          "3": true,
+          "4": true,
+          "5": true,
+          "6": true,
+          "7": true,
+          "8": true,
+          "9": true,
+          "10": true,
+          "11": true,
+          "12": true
+        }
+      },
+      {
+        "name": "Brown cicada",
+        "price": "250",
+        "location": "On Trees",
+        "timeOfDay": "8 AM - 5 PM",
+        "months": {
+          "1": false,
+          "2": false,
+          "3": false,
+          "4": false,
+          "5": false,
+          "6": false,
+          "7": true,
+          "8": true,
+          "9": false,
+          "10": false,
+          "11": false,
+          "12": false
+        }
+      },
+      {
+        "name": "Robust cicada",
+        "price": "300",
+        "location": "On Trees",
+        "timeOfDay": "8 AM - 5 PM",
+        "months": {
+          "1": false,
+          "2": false,
+          "3": false,
+          "4": false,
+          "5": false,
+          "6": false,
+          "7": true,
+          "8": true,
+          "9": false,
+          "10": false,
+          "11": false,
+          "12": false
+        }
+      },
+      {
+        "name": "Giant cicada",
+        "price": "500",
+        "location": "On Trees",
+        "timeOfDay": "8 AM - 5 PM",
+        "months": {
+          "1": false,
+          "2": false,
+          "3": false,
+          "4": false,
+          "5": false,
+          "6": false,
+          "7": true,
+          "8": true,
+          "9": false,
+          "10": false,
+          "11": false,
+          "12": false
+        }
+      },
+      {
+        "name": "Walker cicada",
+        "price": "400",
+        "location": "On Trees",
+        "timeOfDay": "8 AM - 5 PM",
+        "months": {
+          "1": false,
+          "2": false,
+          "3": false,
+          "4": false,
+          "5": false,
+          "6": false,
+          "7": false,
+          "8": true,
+          "9": true,
+          "10": false,
+          "11": false,
+          "12": false
+        }
+      },
+      {
+        "name": "Evening cicada",
+        "price": "550",
+        "location": "On Trees",
+        "timeOfDay": "4 AM - 8 AM & 4 PM - 7 PM",
+        "months": {
+          "1": false,
+          "2": false,
+          "3": false,
+          "4": false,
+          "5": false,
+          "6": false,
+          "7": true,
+          "8": true,
+          "9": false,
+          "10": false,
+          "11": false,
+          "12": false
+        }
+      },
+      {
+        "name": "Cicada shell",
+        "price": "10",
+        "location": "On Trees",
+        "timeOfDay": "All day",
+        "months": {
+          "1": false,
+          "2": false,
+          "3": false,
+          "4": false,
+          "5": false,
+          "6": false,
+          "7": true,
+          "8": true,
+          "9": false,
+          "10": false,
+          "11": false,
+          "12": false
+        }
+      },
+      {
+        "name": "Red dragonfly",
+        "price": "180",
+        "location": "Flying",
+        "timeOfDay": "8 AM - 7 PM",
+        "months": {
+          "1": false,
+          "2": false,
+          "3": false,
+          "4": false,
+          "5": false,
+          "6": false,
+          "7": false,
+          "8": false,
+          "9": true,
+          "10": true,
+          "11": false,
+          "12": false
+        }
+      },
+      {
+        "name": "Darner dragonfly",
+        "price": "230",
+        "location": "Flying",
+        "timeOfDay": "8 AM - 5 PM",
+        "months": {
+          "1": false,
+          "2": false,
+          "3": false,
+          "4": true,
+          "5": true,
+          "6": true,
+          "7": true,
+          "8": true,
+          "9": true,
+          "10": true,
+          "11": false,
+          "12": false
+        }
+      },
+      {
+        "name": "Banded dragonfly",
+        "price": "4500",
+        "location": "Flying",
+        "timeOfDay": "8 AM - 5 PM",
+        "months": {
+          "1": false,
+          "2": false,
+          "3": false,
+          "4": false,
+          "5": true,
+          "6": true,
+          "7": true,
+          "8": true,
+          "9": true,
+          "10": true,
+          "11": false,
+          "12": false
+        }
+      },
+      {
+        "name": "Damselfly",
+        "price": "500",
+        "location": "Flying",
+        "timeOfDay": "All day",
+        "months": {
+          "1": true,
+          "2": true,
+          "3": false,
+          "4": false,
+          "5": false,
+          "6": false,
+          "7": false,
+          "8": false,
+          "9": false,
+          "10": false,
+          "11": true,
+          "12": true
+        }
+      },
+      {
+        "name": "Firefly",
+        "price": "300",
+        "location": "Flying",
+        "timeOfDay": "7 PM - 4 AM",
+        "months": {
+          "1": false,
+          "2": false,
+          "3": false,
+          "4": false,
+          "5": false,
+          "6": true,
+          "7": false,
+          "8": false,
+          "9": false,
+          "10": false,
+          "11": false,
+          "12": false
+        }
+      },
+      {
+        "name": "Mole cricket",
+        "price": "500",
+        "location": "Underground",
+        "timeOfDay": "All day",
+        "months": {
+          "1": true,
+          "2": true,
+          "3": true,
+          "4": true,
+          "5": true,
+          "6": false,
+          "7": false,
+          "8": false,
+          "9": false,
+          "10": false,
+          "11": true,
+          "12": true
+        }
+      },
+      {
+        "name": "Pondskater",
+        "price": "130",
+        "location": "On Ponds and Rivers",
+        "timeOfDay": "8 AM - 7 PM",
+        "months": {
+          "1": false,
+          "2": false,
+          "3": false,
+          "4": false,
+          "5": true,
+          "6": true,
+          "7": true,
+          "8": true,
+          "9": true,
+          "10": false,
+          "11": false,
+          "12": false
+        }
+      },
+      {
+        "name": "Diving beetle",
+        "price": "800",
+        "location": "On Ponds and Rivers",
+        "timeOfDay": "8 AM - 7 PM",
+        "months": {
+          "1": false,
+          "2": false,
+          "3": false,
+          "4": false,
+          "5": true,
+          "6": true,
+          "7": true,
+          "8": true,
+          "9": true,
+          "10": false,
+          "11": false,
+          "12": false
+        }
+      },
+      {
+        "name": "Giant water bug",
+        "price": "2000",
+        "location": "On Ponds and Rivers",
+        "timeOfDay": "7 PM - 8 AM",
+        "months": {
+          "1": false,
+          "2": false,
+          "3": false,
+          "4": true,
+          "5": true,
+          "6": true,
+          "7": true,
+          "8": true,
+          "9": true,
+          "10": false,
+          "11": false,
+          "12": false
+        }
+      },
+      {
+        "name": "Stinkbug",
+        "price": "120",
+        "location": "On Flowers",
+        "timeOfDay": "All day",
+        "months": {
+          "1": false,
+          "2": false,
+          "3": true,
+          "4": true,
+          "5": true,
+          "6": true,
+          "7": true,
+          "8": true,
+          "9": true,
+          "10": true,
+          "11": false,
+          "12": false
+        }
+      },
+      {
+        "name": "Man-faced stink bug",
+        "price": "1000",
+        "location": "On Flowers",
+        "timeOfDay": "7 PM - 8 AM",
+        "months": {
+          "1": false,
+          "2": false,
+          "3": true,
+          "4": true,
+          "5": true,
+          "6": true,
+          "7": true,
+          "8": true,
+          "9": true,
+          "10": true,
+          "11": false,
+          "12": false
+        }
+      },
+      {
+        "name": "Ladybug",
+        "price": "200",
+        "location": "On Flowers",
+        "timeOfDay": "8 AM - 5 PM",
+        "months": {
+          "1": false,
+          "2": false,
+          "3": true,
+          "4": true,
+          "5": true,
+          "6": true,
+          "7": false,
+          "8": false,
+          "9": false,
+          "10": true,
+          "11": false,
+          "12": false
+        }
+      },
+      {
+        "name": "Tiger beetle",
+        "price": "1500",
+        "location": "On the Ground",
+        "timeOfDay": "All day",
+        "months": {
+          "1": false,
+          "2": true,
+          "3": true,
+          "4": true,
+          "5": true,
+          "6": true,
+          "7": true,
+          "8": true,
+          "9": true,
+          "10": true,
+          "11": false,
+          "12": false
+        }
+      },
+      {
+        "name": "Jewel beetle",
+        "price": "2400",
+        "location": "On Tree Stumps",
+        "timeOfDay": "All day",
+        "months": {
+          "1": false,
+          "2": false,
+          "3": false,
+          "4": true,
+          "5": true,
+          "6": true,
+          "7": true,
+          "8": true,
+          "9": false,
+          "10": false,
+          "11": false,
+          "12": false
+        }
+      },
+      {
+        "name": "Violin beetle",
+        "price": "450",
+        "location": "On Tree Stumps",
+        "timeOfDay": "All day",
+        "months": {
+          "1": false,
+          "2": false,
+          "3": false,
+          "4": false,
+          "5": true,
+          "6": true,
+          "7": false,
+          "8": false,
+          "9": true,
+          "10": true,
+          "11": true,
+          "12": false
+        }
+      },
+      {
+        "name": "Citrus long-horned beetle",
+        "price": "350",
+        "location": "On Tree Stumps",
+        "timeOfDay": "All day",
+        "months": {
+          "1": true,
+          "2": true,
+          "3": true,
+          "4": true,
+          "5": true,
+          "6": true,
+          "7": true,
+          "8": true,
+          "9": true,
+          "10": true,
+          "11": true,
+          "12": true
+        }
+      },
+      {
+        "name": "Rosalia batesi beetle",
+        "price": "3000",
+        "location": "On Tree Stumps",
+        "timeOfDay": "All day",
+        "months": {
+          "1": false,
+          "2": false,
+          "3": false,
+          "4": false,
+          "5": true,
+          "6": true,
+          "7": true,
+          "8": true,
+          "9": true,
+          "10": false,
+          "11": false,
+          "12": false
+        }
+      },
+      {
+        "name": "Blue weevil beetle",
+        "price": "800",
+        "location": "On Trees (Coconut?)",
+        "timeOfDay": "All day",
+        "months": {
+          "1": false,
+          "2": false,
+          "3": false,
+          "4": false,
+          "5": false,
+          "6": false,
+          "7": true,
+          "8": true,
+          "9": false,
+          "10": false,
+          "11": false,
+          "12": false
+        }
+      },
+      {
+        "name": "Dung beetle",
+        "price": "3000",
+        "location": "On the Ground (rolling snowballs)",
+        "timeOfDay": "All day",
+        "months": {
+          "1": true,
+          "2": true,
+          "3": false,
+          "4": false,
+          "5": false,
+          "6": false,
+          "7": false,
+          "8": false,
+          "9": false,
+          "10": false,
+          "11": false,
+          "12": true
+        }
+      },
+      {
+        "name": "Earth-boring dung beetle",
+        "price": "300",
+        "location": "On the Ground",
+        "timeOfDay": "All day",
+        "months": {
+          "1": false,
+          "2": false,
+          "3": false,
+          "4": false,
+          "5": false,
+          "6": false,
+          "7": true,
+          "8": true,
+          "9": true,
+          "10": false,
+          "11": false,
+          "12": false
+        }
+      },
+      {
+        "name": "Scarab beetle",
+        "price": "10000",
+        "location": "On Trees",
+        "timeOfDay": "11 PM - 8 AM",
+        "months": {
+          "1": false,
+          "2": false,
+          "3": false,
+          "4": false,
+          "5": false,
+          "6": false,
+          "7": true,
+          "8": true,
+          "9": false,
+          "10": false,
+          "11": false,
+          "12": false
+        }
+      },
+      {
+        "name": "Drone beetle",
+        "price": "200",
+        "location": "On Trees",
+        "timeOfDay": "All day",
+        "months": {
+          "1": false,
+          "2": false,
+          "3": false,
+          "4": false,
+          "5": false,
+          "6": true,
+          "7": true,
+          "8": true,
+          "9": false,
+          "10": false,
+          "11": false,
+          "12": false
+        }
+      },
+      {
+        "name": "Goliath beetle",
+        "price": "8000",
+        "location": "On Trees (Coconut)",
+        "timeOfDay": "5 PM - 8 AM",
+        "months": {
+          "1": false,
+          "2": false,
+          "3": false,
+          "4": false,
+          "5": false,
+          "6": true,
+          "7": true,
+          "8": true,
+          "9": true,
+          "10": false,
+          "11": false,
+          "12": false
+        }
+      },
+      {
+        "name": "Saw stag",
+        "price": "2000",
+        "location": "On Trees",
+        "timeOfDay": "All day",
+        "months": {
+          "1": false,
+          "2": false,
+          "3": false,
+          "4": false,
+          "5": false,
+          "6": false,
+          "7": true,
+          "8": true,
+          "9": false,
+          "10": false,
+          "11": false,
+          "12": false
+        }
+      },
+      {
+        "name": "Miyama stag",
+        "price": "1000",
+        "location": "On Trees",
+        "timeOfDay": "All day",
+        "months": {
+          "1": false,
+          "2": false,
+          "3": false,
+          "4": false,
+          "5": false,
+          "6": false,
+          "7": true,
+          "8": true,
+          "9": false,
+          "10": false,
+          "11": false,
+          "12": false
+        }
+      },
+      {
+        "name": "Giant stag",
+        "price": "10000",
+        "location": "On Trees",
+        "timeOfDay": "11 PM - 8 AM",
+        "months": {
+          "1": false,
+          "2": false,
+          "3": false,
+          "4": false,
+          "5": false,
+          "6": false,
+          "7": true,
+          "8": true,
+          "9": false,
+          "10": false,
+          "11": false,
+          "12": false
+        }
+      },
+      {
+        "name": "Rainbow stag",
+        "price": "6000",
+        "location": "On Trees",
+        "timeOfDay": "7 PM - 8 AM",
+        "months": {
+          "1": false,
+          "2": false,
+          "3": false,
+          "4": false,
+          "5": false,
+          "6": true,
+          "7": true,
+          "8": true,
+          "9": true,
+          "10": false,
+          "11": false,
+          "12": false
+        }
+      },
+      {
+        "name": "Cyclommatus stag",
+        "price": "8000",
+        "location": "On Trees",
+        "timeOfDay": "5 PM - 8 AM",
+        "months": {
+          "1": false,
+          "2": false,
+          "3": false,
+          "4": false,
+          "5": false,
+          "6": false,
+          "7": true,
+          "8": true,
+          "9": false,
+          "10": false,
+          "11": false,
+          "12": false
+        }
+      },
+      {
+        "name": "Golden stag",
+        "price": "?",
+        "location": "On Trees",
+        "timeOfDay": "5 PM - 8 AM",
+        "months": {
+          "1": false,
+          "2": false,
+          "3": false,
+          "4": false,
+          "5": false,
+          "6": false,
+          "7": true,
+          "8": true,
+          "9": false,
+          "10": false,
+          "11": false,
+          "12": false
+        }
+      },
+      {
+        "name": "Giraffe stag",
+        "price": "?",
+        "location": "On Trees",
+        "timeOfDay": "5 PM - 8 AM",
+        "months": {
+          "1": false,
+          "2": false,
+          "3": false,
+          "4": false,
+          "5": false,
+          "6": false,
+          "7": true,
+          "8": true,
+          "9": false,
+          "10": false,
+          "11": false,
+          "12": false
+        }
+      },
+      {
+        "name": "Horned dynastid",
+        "price": "1350",
+        "location": "On Trees",
+        "timeOfDay": "5 PM - 8 AM",
+        "months": {
+          "1": false,
+          "2": false,
+          "3": false,
+          "4": false,
+          "5": false,
+          "6": false,
+          "7": true,
+          "8": true,
+          "9": false,
+          "10": false,
+          "11": false,
+          "12": false
+        }
+      },
+      {
+        "name": "Horned atlas",
+        "price": "8000",
+        "location": "On Trees",
+        "timeOfDay": "5 PM - 8 AM",
+        "months": {
+          "1": false,
+          "2": false,
+          "3": false,
+          "4": false,
+          "5": false,
+          "6": false,
+          "7": true,
+          "8": true,
+          "9": false,
+          "10": false,
+          "11": false,
+          "12": false
+        }
+      },
+      {
+        "name": "Horned elephant",
+        "price": "8000",
+        "location": "On Trees",
+        "timeOfDay": "5 PM - 8 AM",
+        "months": {
+          "1": false,
+          "2": false,
+          "3": false,
+          "4": false,
+          "5": false,
+          "6": false,
+          "7": true,
+          "8": true,
+          "9": false,
+          "10": false,
+          "11": false,
+          "12": false
+        }
+      },
+      {
+        "name": "Horned hercules",
+        "price": "?",
+        "location": "On Trees",
+        "timeOfDay": "5 PM - 8 AM",
+        "months": {
+          "1": false,
+          "2": false,
+          "3": false,
+          "4": false,
+          "5": false,
+          "6": false,
+          "7": true,
+          "8": true,
+          "9": false,
+          "10": false,
+          "11": false,
+          "12": false
+        }
+      },
+      {
+        "name": "Walking stick",
+        "price": "600",
+        "location": "On Trees",
+        "timeOfDay": "4 AM - 8 AM & 5 PM - 7 PM",
+        "months": {
+          "1": false,
+          "2": false,
+          "3": false,
+          "4": false,
+          "5": false,
+          "6": false,
+          "7": true,
+          "8": true,
+          "9": true,
+          "10": true,
+          "11": true,
+          "12": false
+        }
+      },
+      {
+        "name": "Walking leaf",
+        "price": "600",
+        "location": "Under Trees Disguised as Leafs",
+        "timeOfDay": "All day",
+        "months": {
+          "1": false,
+          "2": false,
+          "3": false,
+          "4": false,
+          "5": false,
+          "6": false,
+          "7": true,
+          "8": true,
+          "9": true,
+          "10": false,
+          "11": false,
+          "12": false
+        }
+      },
+      {
+        "name": "Bagworm",
+        "price": "600",
+        "location": "Shaking Trees",
+        "timeOfDay": "All day",
+        "months": {
+          "1": true,
+          "2": true,
+          "3": true,
+          "4": true,
+          "5": true,
+          "6": true,
+          "7": true,
+          "8": true,
+          "9": true,
+          "10": true,
+          "11": true,
+          "12": true
+        }
+      },
+      {
+        "name": "Ant",
+        "price": "80",
+        "location": "On rotten food",
+        "timeOfDay": "All day",
+        "months": {
+          "1": true,
+          "2": true,
+          "3": true,
+          "4": true,
+          "5": true,
+          "6": true,
+          "7": true,
+          "8": true,
+          "9": true,
+          "10": true,
+          "11": true,
+          "12": true
+        }
+      },
+      {
+        "name": "Hermit crab",
+        "price": "1000",
+        "location": "Beach disguised as Shells",
+        "timeOfDay": "7 PM - 8 AM",
+        "months": {
+          "1": true,
+          "2": true,
+          "3": true,
+          "4": true,
+          "5": true,
+          "6": true,
+          "7": true,
+          "8": true,
+          "9": true,
+          "10": true,
+          "11": true,
+          "12": true
+        }
+      },
+      {
+        "name": "Wharf roach",
+        "price": "200",
+        "location": "On Beach Rocks",
+        "timeOfDay": "All day",
+        "months": {
+          "1": true,
+          "2": true,
+          "3": true,
+          "4": true,
+          "5": true,
+          "6": true,
+          "7": true,
+          "8": true,
+          "9": true,
+          "10": true,
+          "11": true,
+          "12": true
+        }
+      },
+      {
+        "name": "Fly",
+        "price": "60",
+        "location": "On Trash Items",
+        "timeOfDay": "All day",
+        "months": {
+          "1": true,
+          "2": true,
+          "3": true,
+          "4": true,
+          "5": true,
+          "6": true,
+          "7": true,
+          "8": true,
+          "9": true,
+          "10": true,
+          "11": true,
+          "12": true
+        }
+      },
+      {
+        "name": "Mosquito",
+        "price": "130",
+        "location": "Flying",
+        "timeOfDay": "5 PM - 4 AM",
+        "months": {
+          "1": false,
+          "2": false,
+          "3": false,
+          "4": false,
+          "5": false,
+          "6": true,
+          "7": true,
+          "8": true,
+          "9": true,
+          "10": false,
+          "11": false,
+          "12": false
+        }
+      },
+      {
+        "name": "Flea",
+        "price": "70",
+        "location": "Villager's Heads",
+        "timeOfDay": "All day",
+        "months": {
+          "1": false,
+          "2": false,
+          "3": false,
+          "4": true,
+          "5": true,
+          "6": true,
+          "7": true,
+          "8": true,
+          "9": true,
+          "10": true,
+          "11": true,
+          "12": false
+        }
+      },
+      {
+        "name": "Snail",
+        "price": "250",
+        "location": "On Rocks (Rain)",
+        "timeOfDay": "All day",
+        "months": {
+          "1": true,
+          "2": true,
+          "3": true,
+          "4": true,
+          "5": true,
+          "6": true,
+          "7": true,
+          "8": true,
+          "9": true,
+          "10": true,
+          "11": true,
+          "12": true
+        }
+      },
+      {
+        "name": "Pill bug",
+        "price": "250",
+        "location": "Hitting Rocks",
+        "timeOfDay": "11 PM - 4 PM",
+        "months": {
+          "1": true,
+          "2": true,
+          "3": true,
+          "4": true,
+          "5": true,
+          "6": true,
+          "7": false,
+          "8": false,
+          "9": true,
+          "10": true,
+          "11": true,
+          "12": true
+        }
+      },
+      {
+        "name": "Centipede",
+        "price": "300",
+        "location": "Hitting Rocks",
+        "timeOfDay": "4 PM - 11 PM",
+        "months": {
+          "1": true,
+          "2": true,
+          "3": true,
+          "4": true,
+          "5": true,
+          "6": true,
+          "7": false,
+          "8": false,
+          "9": true,
+          "10": true,
+          "11": true,
+          "12": true
+        }
+      },
+      {
+        "name": "Spider",
+        "price": "480",
+        "location": "Shaking Trees",
+        "timeOfDay": "7 PM - 8 AM",
+        "months": {
+          "1": true,
+          "2": true,
+          "3": true,
+          "4": true,
+          "5": true,
+          "6": true,
+          "7": true,
+          "8": true,
+          "9": true,
+          "10": true,
+          "11": true,
+          "12": true
+        }
+      },
+      {
+        "name": "Tarantula",
+        "price": "8000",
+        "location": "On the Ground",
+        "timeOfDay": "7 PM - 4 AM",
+        "months": {
+          "1": true,
+          "2": true,
+          "3": true,
+          "4": true,
+          "5": false,
+          "6": false,
+          "7": false,
+          "8": false,
+          "9": false,
+          "10": false,
+          "11": true,
+          "12": true
+        }
+      },
+      {
+        "name": "Scorpion",
+        "price": "8000",
+        "location": "On the Ground",
+        "timeOfDay": "7 PM - 4 AM",
+        "months": {
+          "1": false,
+          "2": false,
+          "3": false,
+          "4": false,
+          "5": true,
+          "6": true,
+          "7": true,
+          "8": true,
+          "9": true,
+          "10": true,
+          "11": false,
+          "12": false
+        }
+      }
+    ],
+    "southernHemisphere": [
+      {
+        "name": "Common butterfly",
+        "price": "160",
+        "location": "Flying",
+        "timeOfDay": "4 AM - 7 PM",
+        "months": {
+          "1": false,
+          "2": false,
+          "3": true,
+          "4": true,
+          "5": true,
+          "6": true,
+          "7": true,
+          "8": true,
+          "9": true,
+          "10": true,
+          "11": true,
+          "12": true
+        }
+      },
+      {
+        "name": "Yellow butterfly",
+        "price": "160",
+        "location": "Flying",
+        "timeOfDay": "4 AM - 7 PM",
+        "months": {
+          "1": false,
+          "2": false,
+          "3": true,
+          "4": true,
+          "5": false,
+          "6": false,
+          "7": false,
+          "8": false,
+          "9": true,
+          "10": true,
+          "11": true,
+          "12": true
+        }
+      },
+      {
+        "name": "Tiger butterfly",
+        "price": "240",
+        "location": "Flying",
+        "timeOfDay": "4 AM - 7 PM",
+        "months": {
+          "1": true,
+          "2": true,
+          "3": true,
+          "4": false,
+          "5": false,
+          "6": false,
+          "7": false,
+          "8": false,
+          "9": true,
+          "10": true,
+          "11": true,
+          "12": true
+        }
+      },
+      {
+        "name": "Peacock butterfly",
+        "price": "2500",
+        "location": "Flying by Hybrid Flowers",
+        "timeOfDay": "4 AM - 7 PM",
+        "months": {
+          "1": false,
+          "2": false,
+          "3": false,
+          "4": false,
+          "5": false,
+          "6": false,
+          "7": false,
+          "8": false,
+          "9": true,
+          "10": true,
+          "11": true,
+          "12": true
+        }
+      },
+      {
+        "name": "Common bluebottle",
+        "price": "300",
+        "location": "Flying",
+        "timeOfDay": "4 AM - 7 PM",
+        "months": {
+          "1": false,
+          "2": false,
+          "3": false,
+          "4": true,
+          "5": true,
+          "6": true,
+          "7": true,
+          "8": true,
+          "9": false,
+          "10": false,
+          "11": false,
+          "12": false
+        }
+      },
+      {
+        "name": "Paper kite butterfly",
+        "price": "1000",
+        "location": "Flying",
+        "timeOfDay": "8 AM - 7 PM",
+        "months": {
+          "1": true,
+          "2": true,
+          "3": true,
+          "4": true,
+          "5": true,
+          "6": true,
+          "7": true,
+          "8": true,
+          "9": true,
+          "10": true,
+          "11": true,
+          "12": true
+        }
+      },
+      {
+        "name": "Great purple emperor",
+        "price": "3000",
+        "location": "Flying",
+        "timeOfDay": "4 AM - 7 PM",
+        "months": {
+          "1": false,
+          "2": false,
+          "3": false,
+          "4": false,
+          "5": true,
+          "6": true,
+          "7": true,
+          "8": true,
+          "9": false,
+          "10": false,
+          "11": false,
+          "12": false
+        }
+      },
+      {
+        "name": "Monarch butterfly",
+        "price": "140",
+        "location": "Flying",
+        "timeOfDay": "4 AM - 5 PM",
+        "months": {
+          "1": false,
+          "2": false,
+          "3": true,
+          "4": true,
+          "5": true,
+          "6": false,
+          "7": false,
+          "8": false,
+          "9": false,
+          "10": false,
+          "11": false,
+          "12": false
+        }
+      },
+      {
+        "name": "Emperor butterfly",
+        "price": "4000",
+        "location": "Flying",
+        "timeOfDay": "5 PM - 8 AM",
+        "months": {
+          "1": true,
+          "2": true,
+          "3": true,
+          "4": false,
+          "5": false,
+          "6": true,
+          "7": true,
+          "8": true,
+          "9": true,
+          "10": false,
+          "11": false,
+          "12": true
+        }
+      },
+      {
+        "name": "Agrias butterfly",
+        "price": "3000",
+        "location": "Flying",
+        "timeOfDay": "8 AM - 5 PM",
+        "months": {
+          "1": true,
+          "2": true,
+          "3": true,
+          "4": false,
+          "5": false,
+          "6": false,
+          "7": false,
+          "8": false,
+          "9": false,
+          "10": true,
+          "11": true,
+          "12": true
+        }
+      },
+      {
+        "name": "Rajah Brooke's birdwing",
+        "price": "2500",
+        "location": "Flying",
+        "timeOfDay": "8 AM - 5 PM",
+        "months": {
+          "1": true,
+          "2": true,
+          "3": true,
+          "4": false,
+          "5": false,
+          "6": true,
+          "7": true,
+          "8": true,
+          "9": false,
+          "10": true,
+          "11": true,
+          "12": true
+        }
+      },
+      {
+        "name": "Queen Alexandra's birdwing",
+        "price": "4000",
+        "location": "Flying",
+        "timeOfDay": "8 AM - 4 PM",
+        "months": {
+          "1": true,
+          "2": true,
+          "3": true,
+          "4": false,
+          "5": false,
+          "6": false,
+          "7": false,
+          "8": false,
+          "9": false,
+          "10": false,
+          "11": true,
+          "12": true
+        }
+      },
+      {
+        "name": "Moth",
+        "price": "130",
+        "location": "Flying by Light",
+        "timeOfDay": "7 PM - 4 AM",
+        "months": {
+          "1": true,
+          "2": true,
+          "3": true,
+          "4": true,
+          "5": true,
+          "6": true,
+          "7": true,
+          "8": true,
+          "9": true,
+          "10": true,
+          "11": true,
+          "12": true
+        }
+      },
+      {
+        "name": "Atlas moth",
+        "price": "3000",
+        "location": "On Trees",
+        "timeOfDay": "7 PM - 4 AM",
+        "months": {
+          "1": true,
+          "2": true,
+          "3": true,
+          "4": false,
+          "5": false,
+          "6": false,
+          "7": false,
+          "8": false,
+          "9": false,
+          "10": true,
+          "11": true,
+          "12": true
+        }
+      },
+      {
+        "name": "Madagascan sunset moth",
+        "price": "2500",
+        "location": "Flying",
+        "timeOfDay": "8 AM - 4 PM",
+        "months": {
+          "1": true,
+          "2": true,
+          "3": true,
+          "4": false,
+          "5": false,
+          "6": false,
+          "7": false,
+          "8": false,
+          "9": false,
+          "10": true,
+          "11": true,
+          "12": true
+        }
+      },
+      {
+        "name": "Long locust",
+        "price": "200",
+        "location": "On the Ground",
+        "timeOfDay": "8 AM - 7 PM",
+        "months": {
+          "1": true,
+          "2": true,
+          "3": true,
+          "4": true,
+          "5": true,
+          "6": false,
+          "7": false,
+          "8": false,
+          "9": false,
+          "10": true,
+          "11": true,
+          "12": true
+        }
+      },
+      {
+        "name": "Migratory locust",
+        "price": "600",
+        "location": "On the Ground",
+        "timeOfDay": "8 AM - 7 PM",
+        "months": {
+          "1": false,
+          "2": true,
+          "3": true,
+          "4": true,
+          "5": true,
+          "6": false,
+          "7": false,
+          "8": false,
+          "9": false,
+          "10": false,
+          "11": false,
+          "12": false
+        }
+      },
+      {
+        "name": "Rice grasshopper",
+        "price": "160",
+        "location": "On the Ground",
+        "timeOfDay": "8 AM - 7 PM",
+        "months": {
+          "1": false,
+          "2": true,
+          "3": true,
+          "4": true,
+          "5": true,
+          "6": false,
+          "7": false,
+          "8": false,
+          "9": false,
+          "10": false,
+          "11": false,
+          "12": false
+        }
+      },
+      {
+        "name": "Grasshopper",
+        "price": "160",
+        "location": "On the Ground",
+        "timeOfDay": "8 AM - 5 PM",
+        "months": {
+          "1": true,
+          "2": true,
+          "3": true,
+          "4": false,
+          "5": false,
+          "6": false,
+          "7": false,
+          "8": false,
+          "9": false,
+          "10": false,
+          "11": false,
+          "12": false
+        }
+      },
+      {
+        "name": "Cricket",
+        "price": "130",
+        "location": "On the Ground",
+        "timeOfDay": "5 PM - 8 AM",
+        "months": {
+          "1": false,
+          "2": false,
+          "3": true,
+          "4": true,
+          "5": true,
+          "6": false,
+          "7": false,
+          "8": false,
+          "9": false,
+          "10": false,
+          "11": false,
+          "12": false
+        }
+      },
+      {
+        "name": "Bell cricket",
+        "price": "430",
+        "location": "On the Ground",
+        "timeOfDay": "5 PM - 8 AM",
+        "months": {
+          "1": false,
+          "2": false,
+          "3": true,
+          "4": true,
+          "5": false,
+          "6": false,
+          "7": false,
+          "8": false,
+          "9": false,
+          "10": false,
+          "11": false,
+          "12": false
+        }
+      },
+      {
+        "name": "Mantis",
+        "price": "430",
+        "location": "On Flowers",
+        "timeOfDay": "8 AM - 5 PM",
+        "months": {
+          "1": true,
+          "2": true,
+          "3": true,
+          "4": true,
+          "5": true,
+          "6": false,
+          "7": false,
+          "8": false,
+          "9": true,
+          "10": true,
+          "11": true,
+          "12": true
+        }
+      },
+      {
+        "name": "Orchid mantis",
+        "price": "2400",
+        "location": "On Flowers (White)",
+        "timeOfDay": "8 AM - 5 PM",
+        "months": {
+          "1": true,
+          "2": true,
+          "3": true,
+          "4": true,
+          "5": true,
+          "6": false,
+          "7": false,
+          "8": false,
+          "9": true,
+          "10": true,
+          "11": true,
+          "12": true
+        }
+      },
+      {
+        "name": "Honeybee",
+        "price": "200",
+        "location": "Flying near Flowers",
+        "timeOfDay": "8 AM - 5 PM",
+        "months": {
+          "1": true,
+          "2": false,
+          "3": false,
+          "4": false,
+          "5": false,
+          "6": false,
+          "7": false,
+          "8": false,
+          "9": true,
+          "10": true,
+          "11": true,
+          "12": true
+        }
+      },
+      {
+        "name": "Wasp",
+        "price": "2500",
+        "location": "Shaking Trees",
+        "timeOfDay": "All day",
+        "months": {
+          "1": true,
+          "2": true,
+          "3": true,
+          "4": true,
+          "5": true,
+          "6": true,
+          "7": true,
+          "8": true,
+          "9": true,
+          "10": true,
+          "11": true,
+          "12": true
+        }
+      },
+      {
+        "name": "Brown cicada",
+        "price": "250",
+        "location": "On Trees",
+        "timeOfDay": "8 AM - 5 PM",
+        "months": {
+          "1": false,
+          "2": false,
+          "3": false,
+          "4": false,
+          "5": false,
+          "6": false,
+          "7": true,
+          "8": true,
+          "9": false,
+          "10": false,
+          "11": false,
+          "12": false
+        }
+      },
+      {
+        "name": "Robust cicada",
+        "price": "300",
+        "location": "On Trees",
+        "timeOfDay": "8 AM - 5 PM",
+        "months": {
+          "1": false,
+          "2": false,
+          "3": false,
+          "4": false,
+          "5": false,
+          "6": false,
+          "7": true,
+          "8": true,
+          "9": false,
+          "10": false,
+          "11": false,
+          "12": false
+        }
+      },
+      {
+        "name": "Giant cicada",
+        "price": "500",
+        "location": "On Trees",
+        "timeOfDay": "8 AM - 5 PM",
+        "months": {
+          "1": false,
+          "2": false,
+          "3": false,
+          "4": false,
+          "5": false,
+          "6": false,
+          "7": true,
+          "8": true,
+          "9": false,
+          "10": false,
+          "11": false,
+          "12": false
+        }
+      },
+      {
+        "name": "Walker cicada",
+        "price": "400",
+        "location": "On Trees",
+        "timeOfDay": "8 AM - 5 PM",
+        "months": {
+          "1": false,
+          "2": true,
+          "3": true,
+          "4": false,
+          "5": false,
+          "6": false,
+          "7": false,
+          "8": false,
+          "9": false,
+          "10": false,
+          "11": false,
+          "12": false
+        }
+      },
+      {
+        "name": "Evening cicada",
+        "price": "550",
+        "location": "On Trees",
+        "timeOfDay": "4 AM - 8 AM & 4 PM - 7 PM",
+        "months": {
+          "1": false,
+          "2": false,
+          "3": false,
+          "4": false,
+          "5": false,
+          "6": false,
+          "7": true,
+          "8": true,
+          "9": false,
+          "10": false,
+          "11": false,
+          "12": false
+        }
+      },
+      {
+        "name": "Cicada shell",
+        "price": "10",
+        "location": "On Trees",
+        "timeOfDay": "All day",
+        "months": {
+          "1": false,
+          "2": false,
+          "3": false,
+          "4": false,
+          "5": false,
+          "6": false,
+          "7": true,
+          "8": true,
+          "9": false,
+          "10": false,
+          "11": false,
+          "12": false
+        }
+      },
+      {
+        "name": "Red dragonfly",
+        "price": "180",
+        "location": "Flying",
+        "timeOfDay": "8 AM - 7 PM",
+        "months": {
+          "1": false,
+          "2": false,
+          "3": true,
+          "4": true,
+          "5": false,
+          "6": false,
+          "7": false,
+          "8": false,
+          "9": false,
+          "10": false,
+          "11": false,
+          "12": false
+        }
+      },
+      {
+        "name": "Darner dragonfly",
+        "price": "230",
+        "location": "Flying",
+        "timeOfDay": "8 AM - 5 PM",
+        "months": {
+          "1": true,
+          "2": true,
+          "3": true,
+          "4": true,
+          "5": false,
+          "6": false,
+          "7": false,
+          "8": false,
+          "9": false,
+          "10": true,
+          "11": true,
+          "12": true
+        }
+      },
+      {
+        "name": "Banded dragonfly",
+        "price": "4500",
+        "location": "Flying",
+        "timeOfDay": "8 AM - 5 PM",
+        "months": {
+          "1": true,
+          "2": true,
+          "3": true,
+          "4": true,
+          "5": false,
+          "6": false,
+          "7": false,
+          "8": false,
+          "9": false,
+          "10": false,
+          "11": true,
+          "12": true
+        }
+      },
+      {
+        "name": "Damselfly",
+        "price": "500",
+        "location": "Flying",
+        "timeOfDay": "All day",
+        "months": {
+          "1": true,
+          "2": true,
+          "3": false,
+          "4": false,
+          "5": false,
+          "6": false,
+          "7": false,
+          "8": false,
+          "9": false,
+          "10": false,
+          "11": true,
+          "12": true
+        }
+      },
+      {
+        "name": "Firefly",
+        "price": "300",
+        "location": "Flying",
+        "timeOfDay": "7 PM - 4 AM",
+        "months": {
+          "1": false,
+          "2": false,
+          "3": false,
+          "4": false,
+          "5": false,
+          "6": true,
+          "7": false,
+          "8": false,
+          "9": false,
+          "10": false,
+          "11": false,
+          "12": false
+        }
+      },
+      {
+        "name": "Mole cricket",
+        "price": "500",
+        "location": "Underground",
+        "timeOfDay": "All day",
+        "months": {
+          "1": false,
+          "2": false,
+          "3": false,
+          "4": false,
+          "5": true,
+          "6": true,
+          "7": true,
+          "8": true,
+          "9": true,
+          "10": true,
+          "11": true,
+          "12": false
+        }
+      },
+      {
+        "name": "Pondskater",
+        "price": "130",
+        "location": "On Ponds and Rivers",
+        "timeOfDay": "8 AM - 7 PM",
+        "months": {
+          "1": true,
+          "2": true,
+          "3": true,
+          "4": false,
+          "5": false,
+          "6": false,
+          "7": false,
+          "8": false,
+          "9": false,
+          "10": false,
+          "11": true,
+          "12": true
+        }
+      },
+      {
+        "name": "Diving beetle",
+        "price": "800",
+        "location": "On Ponds and Rivers",
+        "timeOfDay": "8 AM - 7 PM",
+        "months": {
+          "1": true,
+          "2": true,
+          "3": true,
+          "4": false,
+          "5": false,
+          "6": false,
+          "7": false,
+          "8": false,
+          "9": false,
+          "10": false,
+          "11": true,
+          "12": true
+        }
+      },
+      {
+        "name": "Giant water bug",
+        "price": "2000",
+        "location": "On Ponds and Rivers",
+        "timeOfDay": "7 PM - 8 AM",
+        "months": {
+          "1": true,
+          "2": true,
+          "3": true,
+          "4": false,
+          "5": false,
+          "6": false,
+          "7": false,
+          "8": false,
+          "9": false,
+          "10": true,
+          "11": true,
+          "12": true
+        }
+      },
+      {
+        "name": "Stinkbug",
+        "price": "120",
+        "location": "On Flowers",
+        "timeOfDay": "All day",
+        "months": {
+          "1": true,
+          "2": true,
+          "3": true,
+          "4": true,
+          "5": false,
+          "6": false,
+          "7": false,
+          "8": false,
+          "9": true,
+          "10": true,
+          "11": true,
+          "12": true
+        }
+      },
+      {
+        "name": "Man-faced stink bug",
+        "price": "1000",
+        "location": "On Flowers",
+        "timeOfDay": "7 PM - 8 AM",
+        "months": {
+          "1": true,
+          "2": true,
+          "3": true,
+          "4": true,
+          "5": false,
+          "6": false,
+          "7": false,
+          "8": false,
+          "9": true,
+          "10": true,
+          "11": true,
+          "12": true
+        }
+      },
+      {
+        "name": "Ladybug",
+        "price": "200",
+        "location": "On Flowers",
+        "timeOfDay": "8 AM - 5 PM",
+        "months": {
+          "1": false,
+          "2": false,
+          "3": false,
+          "4": true,
+          "5": false,
+          "6": false,
+          "7": false,
+          "8": false,
+          "9": true,
+          "10": true,
+          "11": true,
+          "12": true
+        }
+      },
+      {
+        "name": "Tiger beetle",
+        "price": "1500",
+        "location": "On the Ground",
+        "timeOfDay": "All day",
+        "months": {
+          "1": true,
+          "2": true,
+          "3": true,
+          "4": true,
+          "5": false,
+          "6": false,
+          "7": false,
+          "8": true,
+          "9": true,
+          "10": true,
+          "11": true,
+          "12": true
+        }
+      },
+      {
+        "name": "Jewel beetle",
+        "price": "2400",
+        "location": "On Tree Stumps",
+        "timeOfDay": "All day",
+        "months": {
+          "1": false,
+          "2": false,
+          "3": false,
+          "4": true,
+          "5": true,
+          "6": true,
+          "7": true,
+          "8": true,
+          "9": false,
+          "10": false,
+          "11": false,
+          "12": false
+        }
+      },
+      {
+        "name": "Violin beetle",
+        "price": "450",
+        "location": "On Tree Stumps",
+        "timeOfDay": "All day",
+        "months": {
+          "1": false,
+          "2": false,
+          "3": true,
+          "4": true,
+          "5": true,
+          "6": false,
+          "7": false,
+          "8": false,
+          "9": false,
+          "10": false,
+          "11": true,
+          "12": true
+        }
+      },
+      {
+        "name": "Citrus long-horned beetle",
+        "price": "350",
+        "location": "On Tree Stumps",
+        "timeOfDay": "All day",
+        "months": {
+          "1": true,
+          "2": true,
+          "3": true,
+          "4": true,
+          "5": true,
+          "6": true,
+          "7": true,
+          "8": true,
+          "9": true,
+          "10": true,
+          "11": true,
+          "12": true
+        }
+      },
+      {
+        "name": "Rosalia batesi beetle",
+        "price": "3000",
+        "location": "On Tree Stumps",
+        "timeOfDay": "All day",
+        "months": {
+          "1": true,
+          "2": true,
+          "3": true,
+          "4": false,
+          "5": false,
+          "6": false,
+          "7": false,
+          "8": false,
+          "9": false,
+          "10": false,
+          "11": true,
+          "12": true
+        }
+      },
+      {
+        "name": "Blue weevil beetle",
+        "price": "800",
+        "location": "On Trees (Coconut?)",
+        "timeOfDay": "All day",
+        "months": {
+          "1": false,
+          "2": false,
+          "3": false,
+          "4": false,
+          "5": false,
+          "6": false,
+          "7": true,
+          "8": true,
+          "9": false,
+          "10": false,
+          "11": false,
+          "12": false
+        }
+      },
+      {
+        "name": "Dung beetle",
+        "price": "3000",
+        "location": "On the Ground (rolling snowballs)",
+        "timeOfDay": "All day",
+        "months": {
+          "1": false,
+          "2": false,
+          "3": false,
+          "4": false,
+          "5": false,
+          "6": true,
+          "7": true,
+          "8": true,
+          "9": false,
+          "10": false,
+          "11": false,
+          "12": false
+        }
+      },
+      {
+        "name": "Earth-boring dung beetle",
+        "price": "300",
+        "location": "On the Ground",
+        "timeOfDay": "All day",
+        "months": {
+          "1": true,
+          "2": true,
+          "3": true,
+          "4": false,
+          "5": false,
+          "6": false,
+          "7": false,
+          "8": false,
+          "9": false,
+          "10": false,
+          "11": false,
+          "12": false
+        }
+      },
+      {
+        "name": "Scarab beetle",
+        "price": "10000",
+        "location": "On Trees",
+        "timeOfDay": "11 PM - 8 AM",
+        "months": {
+          "1": false,
+          "2": false,
+          "3": false,
+          "4": false,
+          "5": false,
+          "6": false,
+          "7": true,
+          "8": true,
+          "9": false,
+          "10": false,
+          "11": false,
+          "12": false
+        }
+      },
+      {
+        "name": "Drone beetle",
+        "price": "200",
+        "location": "On Trees",
+        "timeOfDay": "All day",
+        "months": {
+          "1": false,
+          "2": false,
+          "3": false,
+          "4": false,
+          "5": false,
+          "6": true,
+          "7": true,
+          "8": true,
+          "9": false,
+          "10": false,
+          "11": false,
+          "12": false
+        }
+      },
+      {
+        "name": "Goliath beetle",
+        "price": "8000",
+        "location": "On Trees (Coconut)",
+        "timeOfDay": "5 PM - 8 AM",
+        "months": {
+          "1": true,
+          "2": true,
+          "3": true,
+          "4": false,
+          "5": false,
+          "6": false,
+          "7": false,
+          "8": false,
+          "9": false,
+          "10": false,
+          "11": false,
+          "12": true
+        }
+      },
+      {
+        "name": "Saw stag",
+        "price": "2000",
+        "location": "On Trees",
+        "timeOfDay": "All day",
+        "months": {
+          "1": false,
+          "2": false,
+          "3": false,
+          "4": false,
+          "5": false,
+          "6": false,
+          "7": true,
+          "8": true,
+          "9": false,
+          "10": false,
+          "11": false,
+          "12": false
+        }
+      },
+      {
+        "name": "Miyama stag",
+        "price": "1000",
+        "location": "On Trees",
+        "timeOfDay": "All day",
+        "months": {
+          "1": false,
+          "2": false,
+          "3": false,
+          "4": false,
+          "5": false,
+          "6": false,
+          "7": true,
+          "8": true,
+          "9": false,
+          "10": false,
+          "11": false,
+          "12": false
+        }
+      },
+      {
+        "name": "Giant stag",
+        "price": "10000",
+        "location": "On Trees",
+        "timeOfDay": "11 PM - 8 AM",
+        "months": {
+          "1": false,
+          "2": false,
+          "3": false,
+          "4": false,
+          "5": false,
+          "6": false,
+          "7": true,
+          "8": true,
+          "9": false,
+          "10": false,
+          "11": false,
+          "12": false
+        }
+      },
+      {
+        "name": "Rainbow stag",
+        "price": "6000",
+        "location": "On Trees",
+        "timeOfDay": "7 PM - 8 AM",
+        "months": {
+          "1": true,
+          "2": true,
+          "3": true,
+          "4": false,
+          "5": false,
+          "6": false,
+          "7": false,
+          "8": false,
+          "9": false,
+          "10": false,
+          "11": false,
+          "12": true
+        }
+      },
+      {
+        "name": "Cyclommatus stag",
+        "price": "8000",
+        "location": "On Trees",
+        "timeOfDay": "5 PM - 8 AM",
+        "months": {
+          "1": false,
+          "2": false,
+          "3": false,
+          "4": false,
+          "5": false,
+          "6": false,
+          "7": true,
+          "8": true,
+          "9": false,
+          "10": false,
+          "11": false,
+          "12": false
+        }
+      },
+      {
+        "name": "Golden stag",
+        "price": "11520",
+        "location": "On Trees",
+        "timeOfDay": "5 PM - 8 AM",
+        "months": {
+          "1": false,
+          "2": false,
+          "3": false,
+          "4": false,
+          "5": false,
+          "6": false,
+          "7": true,
+          "8": true,
+          "9": false,
+          "10": false,
+          "11": false,
+          "12": false
+        }
+      },
+      {
+        "name": "Giraffe stag",
+        "price": "?",
+        "location": "On Trees",
+        "timeOfDay": "5 PM - 8 AM",
+        "months": {
+          "1": false,
+          "2": false,
+          "3": false,
+          "4": false,
+          "5": false,
+          "6": false,
+          "7": true,
+          "8": true,
+          "9": false,
+          "10": false,
+          "11": false,
+          "12": false
+        }
+      },
+      {
+        "name": "Horned dynastid",
+        "price": "1350",
+        "location": "On Trees",
+        "timeOfDay": "5 PM - 8 AM",
+        "months": {
+          "1": false,
+          "2": false,
+          "3": false,
+          "4": false,
+          "5": false,
+          "6": false,
+          "7": true,
+          "8": true,
+          "9": false,
+          "10": false,
+          "11": false,
+          "12": false
+        }
+      },
+      {
+        "name": "Horned atlas",
+        "price": "8000",
+        "location": "On Trees",
+        "timeOfDay": "5 PM - 8 AM",
+        "months": {
+          "1": false,
+          "2": false,
+          "3": false,
+          "4": false,
+          "5": false,
+          "6": false,
+          "7": true,
+          "8": true,
+          "9": false,
+          "10": false,
+          "11": false,
+          "12": false
+        }
+      },
+      {
+        "name": "Horned elephant",
+        "price": "8000",
+        "location": "On Trees",
+        "timeOfDay": "5 PM - 8 AM",
+        "months": {
+          "1": false,
+          "2": false,
+          "3": false,
+          "4": false,
+          "5": false,
+          "6": false,
+          "7": true,
+          "8": true,
+          "9": false,
+          "10": false,
+          "11": false,
+          "12": false
+        }
+      },
+      {
+        "name": "Horned hercules",
+        "price": "?",
+        "location": "On Trees",
+        "timeOfDay": "5 PM - 8 AM",
+        "months": {
+          "1": false,
+          "2": false,
+          "3": false,
+          "4": false,
+          "5": false,
+          "6": false,
+          "7": true,
+          "8": true,
+          "9": false,
+          "10": false,
+          "11": false,
+          "12": false
+        }
+      },
+      {
+        "name": "Walking stick",
+        "price": "600",
+        "location": "On Trees",
+        "timeOfDay": "4 AM - 8 AM & 5 PM - 7 PM",
+        "months": {
+          "1": true,
+          "2": true,
+          "3": true,
+          "4": true,
+          "5": true,
+          "6": false,
+          "7": false,
+          "8": false,
+          "9": false,
+          "10": false,
+          "11": false,
+          "12": false
+        }
+      },
+      {
+        "name": "Walking leaf",
+        "price": "600",
+        "location": "Under Trees Disguised as Leafs",
+        "timeOfDay": "All day",
+        "months": {
+          "1": true,
+          "2": true,
+          "3": true,
+          "4": false,
+          "5": false,
+          "6": false,
+          "7": false,
+          "8": false,
+          "9": false,
+          "10": false,
+          "11": false,
+          "12": false
+        }
+      },
+      {
+        "name": "Bagworm",
+        "price": "600",
+        "location": "Shaking Trees",
+        "timeOfDay": "All day",
+        "months": {
+          "1": true,
+          "2": true,
+          "3": true,
+          "4": true,
+          "5": true,
+          "6": true,
+          "7": true,
+          "8": true,
+          "9": true,
+          "10": true,
+          "11": true,
+          "12": true
+        }
+      },
+      {
+        "name": "Ant",
+        "price": "80",
+        "location": "On rotten food",
+        "timeOfDay": "All day",
+        "months": {
+          "1": true,
+          "2": true,
+          "3": true,
+          "4": true,
+          "5": true,
+          "6": true,
+          "7": true,
+          "8": true,
+          "9": true,
+          "10": true,
+          "11": true,
+          "12": true
+        }
+      },
+      {
+        "name": "Hermit crab",
+        "price": "1000",
+        "location": "Beach disguised as Shells",
+        "timeOfDay": "7 PM - 8 AM",
+        "months": {
+          "1": true,
+          "2": true,
+          "3": true,
+          "4": true,
+          "5": true,
+          "6": true,
+          "7": true,
+          "8": true,
+          "9": true,
+          "10": true,
+          "11": true,
+          "12": true
+        }
+      },
+      {
+        "name": "Wharf roach",
+        "price": "200",
+        "location": "On Beach Rocks",
+        "timeOfDay": "All day",
+        "months": {
+          "1": true,
+          "2": true,
+          "3": true,
+          "4": true,
+          "5": true,
+          "6": true,
+          "7": true,
+          "8": true,
+          "9": true,
+          "10": true,
+          "11": true,
+          "12": true
+        }
+      },
+      {
+        "name": "Fly",
+        "price": "60",
+        "location": "On Trash Items",
+        "timeOfDay": "All day",
+        "months": {
+          "1": true,
+          "2": true,
+          "3": true,
+          "4": true,
+          "5": true,
+          "6": true,
+          "7": true,
+          "8": true,
+          "9": true,
+          "10": true,
+          "11": true,
+          "12": true
+        }
+      },
+      {
+        "name": "Mosquito",
+        "price": "130",
+        "location": "Flying",
+        "timeOfDay": "5 PM - 4 AM",
+        "months": {
+          "1": true,
+          "2": true,
+          "3": true,
+          "4": false,
+          "5": false,
+          "6": false,
+          "7": false,
+          "8": false,
+          "9": false,
+          "10": false,
+          "11": false,
+          "12": true
+        }
+      },
+      {
+        "name": "Flea",
+        "price": "70",
+        "location": "Villager's Heads",
+        "timeOfDay": "All day",
+        "months": {
+          "1": true,
+          "2": true,
+          "3": true,
+          "4": true,
+          "5": true,
+          "6": false,
+          "7": false,
+          "8": false,
+          "9": false,
+          "10": true,
+          "11": true,
+          "12": true
+        }
+      },
+      {
+        "name": "Snail",
+        "price": "250",
+        "location": "On Rocks (Rain)",
+        "timeOfDay": "All day",
+        "months": {
+          "1": true,
+          "2": true,
+          "3": true,
+          "4": true,
+          "5": true,
+          "6": true,
+          "7": true,
+          "8": true,
+          "9": true,
+          "10": true,
+          "11": true,
+          "12": true
+        }
+      },
+      {
+        "name": "Pill bug",
+        "price": "250",
+        "location": "Hitting Rocks",
+        "timeOfDay": "11 PM - 4 PM",
+        "months": {
+          "1": false,
+          "2": false,
+          "3": true,
+          "4": true,
+          "5": true,
+          "6": true,
+          "7": true,
+          "8": true,
+          "9": true,
+          "10": true,
+          "11": true,
+          "12": true
+        }
+      },
+      {
+        "name": "Centipede",
+        "price": "300",
+        "location": "Hitting Rocks",
+        "timeOfDay": "4 PM - 11 PM",
+        "months": {
+          "1": false,
+          "2": false,
+          "3": true,
+          "4": true,
+          "5": true,
+          "6": true,
+          "7": true,
+          "8": true,
+          "9": true,
+          "10": true,
+          "11": true,
+          "12": true
+        }
+      },
+      {
+        "name": "Spider",
+        "price": "600",
+        "location": "Shaking Trees",
+        "timeOfDay": "7 PM - 8 AM",
+        "months": {
+          "1": true,
+          "2": true,
+          "3": true,
+          "4": true,
+          "5": true,
+          "6": true,
+          "7": true,
+          "8": true,
+          "9": true,
+          "10": true,
+          "11": true,
+          "12": true
+        }
+      },
+      {
+        "name": "Tarantula",
+        "price": "8000",
+        "location": "On the Ground",
+        "timeOfDay": "7 PM - 4 AM",
+        "months": {
+          "1": false,
+          "2": false,
+          "3": false,
+          "4": false,
+          "5": true,
+          "6": true,
+          "7": true,
+          "8": true,
+          "9": true,
+          "10": true,
+          "11": false,
+          "12": false
+        }
+      },
+      {
+        "name": "Scorpion",
+        "price": "8000",
+        "location": "On the Ground",
+        "timeOfDay": "7 PM - 4 AM",
+        "months": {
+          "1": true,
+          "2": true,
+          "3": true,
+          "4": true,
+          "5": false,
+          "6": false,
+          "7": false,
+          "8": false,
+          "9": false,
+          "10": false,
+          "11": true,
+          "12": true
+        }
+      }
+    ],
+    "lastUpdated": "2020-04-01T06:30:24.375Z"
+  },
   "fish": {
     "northernHemisphere": [
       {
@@ -1580,7 +4787,7 @@
         "name": "Suckerfish",
         "price": "1500",
         "location": "Sea",
-        "shadowSize": "6 (Fin)",
+        "shadowSize": "4 (Fin)",
         "timeOfDay": "All day",
         "months": {
           "1": false,
@@ -1874,7 +5081,7 @@
       },
       {
         "name": "Killifish",
-        "price": "?",
+        "price": "300",
         "location": "Pond",
         "shadowSize": "1",
         "timeOfDay": "9 AM - 4 PM",
@@ -3242,7 +6449,7 @@
         "price": "13000",
         "location": "Sea",
         "shadowSize": "6 (Fin)",
-        "timeOfDay": "All Day",
+        "timeOfDay": "All day",
         "months": {
           "1": true,
           "2": true,
@@ -3262,7 +6469,7 @@
         "name": "Suckerfish",
         "price": "1500",
         "location": "Sea",
-        "shadowSize": "6 (Fin)",
+        "shadowSize": "4 (Fin)",
         "timeOfDay": "All day",
         "months": {
           "1": true,
@@ -3363,6 +6570,7 @@
           "12": true
         }
       }
-    ]
+    ],
+    "lastUpdated": "2020-04-01T06:28:22.245Z"
   }
 }

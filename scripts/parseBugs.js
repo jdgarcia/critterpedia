@@ -1,4 +1,4 @@
-// Run this on https://animalcrossing.fandom.com/wiki/Fish_(New_Horizons)
+// Run this on https://animalcrossing.fandom.com/wiki/Bugs_(New_Horizons)
 (function() {
   const getCellData = el => el.textContent.trim();
 
@@ -10,7 +10,7 @@
     return months;
   };
 
-  const parseFish = divTitle => {
+  const parseBugs = divTitle => {
     const dataRows = document.querySelectorAll(
       `div[title="${divTitle}"] table.sortable tbody tr`
     );
@@ -21,18 +21,17 @@
         name: getCellData(tds[0]),
         price: getCellData(tds[2]),
         location: getCellData(tds[3]),
-        shadowSize: getCellData(tds[4]),
-        timeOfDay: getCellData(tds[5]),
-        months: parseMonths(tds, 6),
+        timeOfDay: getCellData(tds[4]),
+        months: parseMonths(tds, 5),
       };
     });
   };
 
-  const fish = {
-    northernHemisphere: parseFish('Northern Hemisphere'),
-    southernHemisphere: parseFish('Southern Hemisphere'),
+  const bugs = {
+    northernHemisphere: parseBugs('Northern Hemisphere'),
+    southernHemisphere: parseBugs('Southern Hemisphere'),
     lastUpdated: new Date().toISOString(),
   };
 
-  copy(fish);
+  copy(bugs);
 })();

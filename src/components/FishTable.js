@@ -1,10 +1,8 @@
 import React from 'react';
 
 import data from '../../content/data';
-import Filters from './Filters';
-import useFilters from '../hooks/useFilters';
-import filterData from '../utils/filterData';
 import { MONTHS, CURRENT_MONTH } from '../constants';
+import FilterableCritterList from './FilterableCritterList';
 
 const unavailableThisMonthStyle = {
   backgroundColor: 'white',
@@ -26,71 +24,62 @@ const availableMonthStyle = {
 };
 
 const FishTable = () => {
-  const filters = useFilters();
-  const items = filterData(data.fish, filters);
+  const rowRenderer = fish => {
+    const rowStyle = fish.months[CURRENT_MONTH]
+      ? availableThisMonthStyle
+      : unavailableThisMonthStyle;
 
-  return (
-    <div>
-      <Filters filters={filters} />
-      {items.map(fish => {
-        const rowStyle = fish.months[CURRENT_MONTH]
-          ? availableThisMonthStyle
-          : unavailableThisMonthStyle;
-
-        return (
-          <div
-            className="border rounded p mb-lg"
-            key={fish.name}
-            style={{
-              fontSize: '0.8rem',
-              marginBottom: '16px',
-              ...rowStyle,
-            }}
-          >
-            <div className="flex justify-between">
-              <div>{fish.name}</div>
-              <div>
-                <span role="img" aria-label="price">
-                  🛎
-                </span>
-                {fish.price}
-              </div>
-            </div>
-            <div className="flex justify-between">
-              <div className="flex-1">
-                <span role="img" aria-label="location">
-                  🗺
-                </span>
-                {fish.location}
-              </div>
-              <div className="flex-1">
-                <span role="img" aria-label="time">
-                  🕐
-                </span>
-                {fish.timeOfDay}
-              </div>
-              <div className="flex-1 text-end">Size: {fish.shadowSize}</div>
-            </div>
-            <div
-              className="flex justify-between"
-              style={{ fontSize: '0.7rem' }}
-            >
-              {MONTHS.map((month, i) => {
-                const monthStyle = fish.months[i + 1]
-                  ? availableMonthStyle
-                  : unavailableMonthStyle;
-                return (
-                  <div key={month} style={monthStyle}>
-                    {month}
-                  </div>
-                );
-              })}
-            </div>
+    return (
+      <div
+        className="border rounded p mb-lg"
+        key={fish.name}
+        style={{
+          fontSize: '0.8rem',
+          marginBottom: '16px',
+          ...rowStyle,
+        }}
+      >
+        <div className="flex justify-between">
+          <div>{fish.name}</div>
+          <div>
+            <span role="img" aria-label="price">
+              🛎
+            </span>
+            {fish.price}
           </div>
-        );
-      })}
-    </div>
-  );
+        </div>
+        <div className="flex justify-between">
+          <div className="flex-1">
+            <span role="img" aria-label="location">
+              🗺
+            </span>
+            {fish.location}
+          </div>
+          <div className="flex-1">
+            <span role="img" aria-label="time">
+              🕐
+            </span>
+            {fish.timeOfDay}
+          </div>
+          <div className="flex-1 text-end">Size: {fish.shadowSize}</div>
+        </div>
+        <div className="flex justify-between" style={{ fontSize: '0.7rem' }}>
+          {MONTHS.map((month, i) => {
+            const monthStyle = fish.months[i + 1]
+              ? availableMonthStyle
+              : unavailableMonthStyle;
+            return (
+              <div key={month} style={monthStyle}>
+                {month}
+              </div>
+            );
+          })}
+        </div>
+      </div>
+    );
+  };
+
+  return <FilterableCritterList data={data.fish} rowRenderer={rowRenderer} />;
 };
 
 export default FishTable;

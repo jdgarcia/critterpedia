@@ -1,16 +1,3 @@
-export const AvailabilityFilter = {
-  All: 'all',
-  ThisMonth: 'thisMonth',
-  NewThisMonth: 'newThisMonth',
-  LeavingThisMonth: 'leavingThisMonth',
-  NotThisMonth: 'notThisMonth',
-};
-
-export const HemisphereFilter = {
-  Northern: 'northern',
-  Southern: 'southern',
-};
-
 export const MONTHS = [
   'Jan',
   'Feb',

@@ -1,10 +1,8 @@
 import React from 'react';
 
 import data from '../../content/data';
-import Filters from './Filters';
-import useFilters from '../hooks/useFilters';
-import filterData from '../utils/filterData';
 import { MONTHS, CURRENT_MONTH } from '../constants';
+import FilterableCritterList from './FilterableCritterList';
 
 const unavailableThisMonthStyle = {
   backgroundColor: 'white',
@@ -26,70 +24,61 @@ const availableMonthStyle = {
 };
 
 const BugTable = () => {
-  const filters = useFilters();
-  const items = filterData(data.bugs, filters);
+  const rowRenderer = bug => {
+    const rowStyle = bug.months[CURRENT_MONTH]
+      ? availableThisMonthStyle
+      : unavailableThisMonthStyle;
 
-  return (
-    <div>
-      <Filters filters={filters} />
-      {items.map(bug => {
-        const rowStyle = bug.months[CURRENT_MONTH]
-          ? availableThisMonthStyle
-          : unavailableThisMonthStyle;
-
-        return (
-          <div
-            className="border rounded p mb-lg"
-            key={bug.name}
-            style={{
-              fontSize: '0.8rem',
-              marginBottom: '16px',
-              ...rowStyle,
-            }}
-          >
-            <div className="flex justify-between">
-              <div>{bug.name}</div>
-              <div>
-                <span role="img" aria-label="price">
-                  🛎
-                </span>
-                {bug.price}
-              </div>
-            </div>
-            <div className="flex justify-between">
-              <div className="flex-2">
-                <span role="img" aria-label="location">
-                  🗺
-                </span>
-                {bug.location}
-              </div>
-              <div className="flex-1">
-                <span role="img" aria-label="time">
-                  🕐
-                </span>
-                {bug.timeOfDay}
-              </div>
-            </div>
-            <div
-              className="flex justify-between"
-              style={{ fontSize: '0.7rem' }}
-            >
-              {MONTHS.map((month, i) => {
-                const monthStyle = bug.months[i + 1]
-                  ? availableMonthStyle
-                  : unavailableMonthStyle;
-                return (
-                  <div key={month} style={monthStyle}>
-                    {month}
-                  </div>
-                );
-              })}
-            </div>
+    return (
+      <div
+        className="border rounded p mb-lg"
+        key={bug.name}
+        style={{
+          fontSize: '0.8rem',
+          marginBottom: '16px',
+          ...rowStyle,
+        }}
+      >
+        <div className="flex justify-between">
+          <div>{bug.name}</div>
+          <div>
+            <span role="img" aria-label="price">
+              🛎
+            </span>
+            {bug.price}
           </div>
-        );
-      })}
-    </div>
-  );
+        </div>
+        <div className="flex justify-between">
+          <div className="flex-2">
+            <span role="img" aria-label="location">
+              🗺
+            </span>
+            {bug.location}
+          </div>
+          <div className="flex-1">
+            <span role="img" aria-label="time">
+              🕐
+            </span>
+            {bug.timeOfDay}
+          </div>
+        </div>
+        <div className="flex justify-between" style={{ fontSize: '0.7rem' }}>
+          {MONTHS.map((month, i) => {
+            const monthStyle = bug.months[i + 1]
+              ? availableMonthStyle
+              : unavailableMonthStyle;
+            return (
+              <div key={month} style={monthStyle}>
+                {month}
+              </div>
+            );
+          })}
+        </div>
+      </div>
+    );
+  };
+
+  return <FilterableCritterList data={data.bugs} rowRenderer={rowRenderer} />;
 };
 
 export default BugTable;

@@ -11,7 +11,7 @@ const unavailableThisMonthStyle = {
   color: '#a1a1a1',
 };
 const availableThisMonthStyle = {
-  backgroundColor: '#b3e2f0',
+  backgroundColor: '#fff5c8',
   color: '#2a2a2a',
   fontWeight: 'bold',
 };
@@ -25,22 +25,22 @@ const availableMonthStyle = {
   fontWeight: 'bold',
 };
 
-const FishTable = () => {
+const BugTable = () => {
   const filters = useFilters();
-  const items = filterData(data.fish, filters);
+  const items = filterData(data.bugs, filters);
 
   return (
     <div>
       <Filters filters={filters} />
-      {items.map(fish => {
-        const rowStyle = fish.months[CURRENT_MONTH]
+      {items.map(bug => {
+        const rowStyle = bug.months[CURRENT_MONTH]
           ? availableThisMonthStyle
           : unavailableThisMonthStyle;
 
         return (
           <div
             className="border rounded p mb-lg"
-            key={fish.name}
+            key={bug.name}
             style={{
               fontSize: '0.8rem',
               marginBottom: '16px',
@@ -48,35 +48,34 @@ const FishTable = () => {
             }}
           >
             <div className="flex justify-between">
-              <div>{fish.name}</div>
+              <div>{bug.name}</div>
               <div>
                 <span role="img" aria-label="price">
                   🛎
                 </span>
-                {fish.price}
+                {bug.price}
               </div>
             </div>
             <div className="flex justify-between">
-              <div className="flex-1">
+              <div className="flex-2">
                 <span role="img" aria-label="location">
                   🗺
                 </span>
-                {fish.location}
+                {bug.location}
               </div>
               <div className="flex-1">
                 <span role="img" aria-label="time">
                   🕐
                 </span>
-                {fish.timeOfDay}
+                {bug.timeOfDay}
               </div>
-              <div className="flex-1 text-end">Size: {fish.shadowSize}</div>
             </div>
             <div
               className="flex justify-between"
               style={{ fontSize: '0.7rem' }}
             >
               {MONTHS.map((month, i) => {
-                const monthStyle = fish.months[i + 1]
+                const monthStyle = bug.months[i + 1]
                   ? availableMonthStyle
                   : unavailableMonthStyle;
                 return (
@@ -93,4 +92,4 @@ const FishTable = () => {
   );
 };
 
-export default FishTable;
+export default BugTable;

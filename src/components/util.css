@@ -4,6 +4,9 @@
 .flex-1 {
   flex: 1;
 }
+.flex-2 {
+  flex: 2;
+}
 .justify-between {
   justify-content: space-between;
 }
@@ -25,6 +28,9 @@
 }
 .rounded {
   border-radius: 4px;
+}
+.text-center {
+  text-align: center;
 }
 .text-end {
   text-align: end;

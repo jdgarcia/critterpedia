@@ -3,20 +3,20 @@ import { Link } from 'gatsby';
 
 import Layout from '../components/layout';
 import SEO from '../components/seo';
-import FishTable from '../components/FishTable';
+import BugTable from '../components/BugTable';
 
-const FishPage = () => (
+const BugPage = () => (
   <Layout>
-    <SEO title="Fish" />
+    <SEO title="Bugs" />
     <h1 className="text-center">
-      <span role="img" aria-label="fish">
-        🐟
+      <span role="img" aria-label="bugs">
+        🦋
       </span>
-      &nbsp;Fish
+      &nbsp;Bugs
     </h1>
-    <FishTable />
+    <BugTable />
     <Link to="/">Go back to the homepage</Link>
   </Layout>
 );
 
-export default FishPage;
+export default BugPage;
